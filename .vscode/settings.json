@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "iot_server.h": "c",
+        "dirent.h": "c",
+        "linkqueue.h": "c"
+    }
+}
