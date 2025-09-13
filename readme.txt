@@ -14,12 +14,7 @@ out_cmd_thread.c
 客户端没修改
 
 
-n@ubuntu:~/share/iot/12_cmd/iot_srv$ find . -type f -name "*.c" -exec wc -l {} + | tail -n +2 | awk '{s+=$1} END {print s}'
-4924
-robin@ubuntu:~/share/iot/12_cmd/iot_srv$ find . -type f -name "Makefile" -exec wc -l {} + | tail -n +2 | awk '{s+=$1} END {print s}'
-205
-robin@ubuntu:~/share/iot/12_cmd/iot_srv$ find . -type f -name "*.h" -exec wc -l {} + | tail -n +2 | awk '{s+=$1} END {print s}'
-1074
+
 
 
 
